@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+nav ul img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: burlywood;
+    height: 60px;
+    column-gap: 20px;
+    align-items: center;
+    padding: 2px;
+}
+nav ul li{
+    color: white;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-family: cursive;
+    padding: 0 10px;
+}
+
+.container{
+    display: flex;
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bgmusicimg.jpeg');
+}
+
+
+.bottom{
+    background-color: burlywood;
+    color: white;
+    height: 65 px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgreeBar{
+    width: 80vw;
+
+}
+
+.icons{
+    margin: 3px;
+    display: flex;
+    column-gap: 10px; 
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songItems{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 62%;
+}
+
+.songItemContainer{
+    margin-top: 30px;
+}
+
+.songItems img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 21px;
+}
+.timeStamp{
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    margin-top: 10px;
+    height: 30px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
